@@ -1,0 +1,113 @@
+ <div class="card-profile">
+        <header></header>
+        <div class="profile_card-body">
+            <img class="profile_card_body-img_container"
+                src="https://www.cnet.com/a/img/9AFTl2qto-rh5zRSeDm3TAmpVy8=/940x0/2021/11/29/f566750f-79b6-4be9-9c32-8402f58ba0ef/richerd.png"
+                alt="">
+            <div class="profile_card_body-discription">
+                <h2>Swapnil Kota</h2>
+                <p>Hello, I am Swapnil Kota and i am a Web Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat vitae</p>
+            </div>
+
+        </div>
+        <div class="profile_card-footer">
+            <i class="profile_card-icon fab fa-facebook-f"></i>
+            <i class="profile_card-icon fab fa-twitter"></i>
+            <i class="profile_card-icon fab fa-linkedin"></i>
+            <i class="profile_card-icon fab fa-instagram"></i>
+            <i class="profile_card-icon fab fa-google"></i>
+        </div>
+        <script src="https://kit.fontawesome.com/b9a620178b.js" crossorigin="anonymous"></script>
+
+
+
+
+        .card-profile{
+    background: #fff;
+    color: rgb(95, 95, 95);
+    height:19rem;
+    width: 13rem;
+    border-radius: 8px;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "header"
+    "body"
+    "body"
+    "body"
+    "body"
+    "footer";
+    position: relative;
+    box-shadow:  2px 2px 2px var(--gray-color);
+    margin: 10px;
+}
+
+.card-profile header{
+    background: #9c1de7;
+    grid-area: header;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.profile_card-body{
+    grid-area: body;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.profile_card-body > *{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.profile_card_body-img_container {
+    position: absolute;
+    top: 30px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.profile_card_body-discription{
+    width: 80%;
+    position: absolute;
+    top:82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile_card-body p{
+   margin: 10px 0 0 ;
+    padding: 10px;
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    font-family: 'Balsamiq Sans', cursive;
+}
+.profile_card-body h2{
+    margin: 10px 0 0 ;
+    color: black;
+}
+
+
+.profile_card-footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start; 
+}
+
+.profile_card-icon{
+    height: 18px;
+    margin: 7px;
+    cursor: pointer;
+}
