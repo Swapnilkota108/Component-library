@@ -133,3 +133,11 @@ body{
        .card-footer span i{
            cursor: pointer;
        }
+
+
+    .card-dismiss i{
+         position: relative;
+         top: -1.7rem;
+         left: 19rem;
+         cursor: pointer;
+    }   
