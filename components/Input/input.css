@@ -64,3 +64,23 @@
      height: 1rem;
      width: 1rem;
  }
+
+
+
+ /* search input */
+
+.input-search-container{
+    height: 1.3rem;
+    position: relative;
+    width:max-content;
+}
+   .input-search{   
+      height: 100%;
+    }
+    .input-search-container img{
+        height: 70%;
+        position: relative;
+        top: 19%;
+        right: 15%;
+        opacity: 0.5;
+    }
