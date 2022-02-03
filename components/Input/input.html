@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <h1>Form</h1>
+    <form class="form" action="user-details">
+        <label for="fname">First Name</label>
+        <input type="text" name="firstName" class="form-input" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="lastName" class="form-input" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select name="country" class="form-select">
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="USA">USA</option>
+        </select>
+        <input class="form-input form-btn" type="submit" value="Submit">
+    </form>
+    <hr>
+    <h1>LogIn</h1>
+    <form class="form" action="login">
+        <label for="UserName">Username*</label>
+        <input type="text" name="Username" class="form-input">
+
+        <label for="Password">Password*</label>
+        <input type="text" name="Password" class="form-input">
+
+        <input type="submit" value="Submit" class="form-btn form-input">
+    </form>
+    <hr>
+    <h1>Login error</h1>
+    <form class="form" action="login-error">
+        <label for="UserName">Username*</label>
+        <input type="text" name="Username" class="form-input">
+
+        <label class="error-text" for="Password">Password*</label>
+        <input type="text" name="Password" class="form-error form-input ">
+        <p class="error-text">Wrong password. Please try again</p>
+        </form>
+    <hr>
+    <h1>Radio button</h1>
+    <div class="container">
+        <div class="radio">
+            <label for="radio" class="label-radio" >
+                <input name="radio" type="radio" class="input-radio">
+                Yes
+            </label>
+            <label for="radio" class="label-radio">
+                <input name="radio" type="radio" class="input-radio">
+                No
+            </label>
+        </div>
+        <hr>
+        <h1>Checkbox</h1>
+        <div class="radio">
+            <label for="radio" class="label-radio" >
+                <input name="radio" type="checkbox" class="checkbox">
+                Yes
+            </label>
+            <label for="radio" class="label-radio">
+                <input name="radio" type="checkbox" class="checkbox">
+                No
+            </label>
+        </div>
+    </div>
+<hr>
+    <!-- search input -->
+   
+       <div class="input-search-container">
+        <input class="input-search" type="search" placeholder="search">
+        <img src=" https://www.pinclipart.com/picdir/middle/3-38128_computer-icons-search-box-magnifying-glass-download-search.png">
+       </div>
+
+    <script src="https://kit.fontawesome.com/b9a620178b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
