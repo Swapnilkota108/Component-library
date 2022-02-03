@@ -9,10 +9,10 @@
    height: 17rem;
    object-fit: cover;
 }
-  .img-rd{
+  .img-round{
       border-radius: 50%;
   }
-  .img-rsv{
+  .img-responsive{
       width: 100%;
       object-fit: cover;
   }
