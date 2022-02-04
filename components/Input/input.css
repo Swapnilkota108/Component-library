@@ -70,17 +70,31 @@
  /* search input */
 
 .input-search-container{
-    height: 1.3rem;
-    position: relative;
-    width:max-content;
+    background-color: var(--white-color);
+    height: 2.3rem;
+    width:15rem;
+    padding: 0 0.8rem 0;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
 }
    .input-search{   
-      height: 100%;
+      height: inherit;
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      outline: 0;
     }
     .input-search-container img{
-        height: 70%;
-        position: relative;
-        top: 19%;
-        right: 15%;
-        opacity: 0.5;
+        height: inherit;
+        background-size: 10%;
+        
+    }
+    .input-search-container i{
+        background-color: var(--white-color);
+        height: inherit;
+        display: flex;
+        align-items: center;
     }
