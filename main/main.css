@@ -1,10 +1,14 @@
+
 @import url(../components/Input/input.css);
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle&family=Lato&family=Lobster&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
   
   *{
     font-family: 'Andika', sans-serif;
     margin: 0;
     padding: 0;
 }
+
 
 :root{
     --primary-color:#775ada;
@@ -13,6 +17,28 @@
     --warning-color:#FF9800;
     --white-color:#fff;
     --gray-color:gray;
+
+    --box-shadow-gray:2px 2px 2px gray;
+    
+     /* font-family */
+    --roboto: 'Roboto', sans-serif;
+    --rowdies: 'Andika', sans-serif;
+    --lobster: 'Lobster', cursive;
+    --open-sans: 'Open Sans', sans-serif;
+    
+}
+
+
+.roboto{
+  font-family: var(--roboto);
+}
+
+.rowdies{
+  font-family: var(--rowdies);
+}
+
+.lobster{
+  font-family: var(--lobster);
 }
 
 .list{
