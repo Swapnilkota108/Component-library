@@ -1,7 +1,9 @@
-
+@import url(../components/Input/input.css);
   
   *{
     font-family: 'Andika', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 :root{
@@ -10,4 +12,9 @@
     --success-color:#4DB351;
     --warning-color:#FF9800;
     --white-color:#fff;
+    --gray-color:gray;
+}
+
+.list{
+  list-style: none;
 }
