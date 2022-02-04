@@ -1,0 +1,18 @@
+.container{
+    height: 50%;
+    width: 50%;
+}
+
+
+.img{
+   width: 17rem;
+   height: 17rem;
+   object-fit: cover;
+}
+  .img-round{
+      border-radius: 50%;
+  }
+  .img-responsive{
+      width: 100%;
+      object-fit: cover;
+  }
