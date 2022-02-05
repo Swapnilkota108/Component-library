@@ -1,1 +1,6 @@
-@import url(../main/main.css);
+@import url(./main/main.css);
+
+
+body{
+    background-color: var(--primary-color);
+}
