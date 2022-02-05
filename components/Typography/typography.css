@@ -1,1 +1,5 @@
 @import url(../../main/main.css);
+
+.text-center{
+    text-align: center;
+}
