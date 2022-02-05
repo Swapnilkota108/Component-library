@@ -1,8 +1,13 @@
+@import url(../../main/main.css);
+
+
+
 .card{
     height: max-content;
     width: 21rem;
     box-shadow:var(--box-shadow-gray);
     margin: 10px;
+    position: relative;
 }
     .card h1,h2{
        margin: 0;
@@ -11,7 +16,6 @@
     .card p{
         margin: 0;
         padding:1rem ;
-        color: var(--gray-color);
     }
 
     .card img{  
@@ -34,7 +38,7 @@
     .card-product{
         height: max-content;
         width: 20rem;
-        box-shadow: 1px 1px 1px var(--gray-color);
+        box-shadow: var(--box-shadow-gray);
         margin: 1rem;
         position: relative;
    }   
@@ -97,16 +101,17 @@
     width: 30rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 1px 1px var(--gray-color);
+    box-shadow: var(--box-shadow-gray);
     margin: 1rem;
 }    
     .card-header{
         display: flex;
         width: 100%;
     }
-        .card-header img{
-            width: 100%;
-        }
+    .card-header img{
+        width: 50%;
+        height: 100%;
+    }
         .card-header > .card-text{
             padding: 0 1rem ;
         }
@@ -178,3 +183,22 @@
     .btn-fullWidth{
         width: 85%;
     }
+
+/* card with image overlay */
+    .card-img-overlay{
+        z-index: 2;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0; 
+        color: var(--white-color);
+      }
+
+
+
+      
+
+      
+
+
+     
