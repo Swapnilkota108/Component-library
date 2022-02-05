@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle&family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
+*{
+    font-family: 'Andika', sans-serif;
+}
+
+
+:root{
+    --primary-color:#775ada;
+    --error-color:#e12929e9;
+    --success-color:#4DB351;
+    --warning-color:#FF9800;
+    --white-color:#fff;
+    --grey-color:grey;
+    --skyBlue-color:#46c3db;
+}
+
+
+
+.container{
+    display: flex;
+
+}
+
+.badge{
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    margin: 0.5rem;
+}
+    .badge img{
+       height: 100%;
+    }
+    .badge-online, .badge-offline, .badge-dnd{
+        height: 25%;
+        width: 25%;
+        background-color:var(--success-color);
+        border: 1px solid var(--white-color);
+        border-radius: 50%;
+        position: relative;
+        top: -14px;
+        left: 22px;
+    }
+    .badge-offline{       
+        background-color:var(--grey-color);       
+    }
+    .badge-dnd{
+        background-color:var(--error-color);     
+    }
+
+    .badge-number, .badge-text{
+        position: inherit;
+        height: 60%;
+        width: 60%;
+        top: -40px;
+        left: 26px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.6rem;
+        color: var(--white-color);
+    }
+   
+        .bg-blue{
+            background-color: var(--skyBlue-color);
+        }
+        .bg-red{
+            background-color: var(--error-color);
+        }
+        .bg-purple{
+            background-color: var(--primary-color);
+        }
+
+       
+        .badge-text{
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--white-color);
+            position: relative;
+            top: -31px;
+            left: 174px;
+          }
