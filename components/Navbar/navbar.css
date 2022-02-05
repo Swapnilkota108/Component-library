@@ -1,0 +1,29 @@
+@import url(../../main/main.css);
+
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.8rem;
+    width: auto;
+    color: var(--gray-color);
+} 
+    .navbar-logo, .navbar-ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-logo{
+        min-width: 7rem;
+    }
+    .navbar-ul{
+        gap: 2rem;
+        padding: 0 0 0 2rem;
+    }
+    .navbar-icon{
+        margin-left: auto;       
+    }
+    .list{
+        cursor: pointer;
+    }
+    

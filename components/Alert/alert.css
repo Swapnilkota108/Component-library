@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle&family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
+*{
+    font-family: 'Andika', sans-serif;
+}
+
+
+:root{
+    --primary-color:#775ada;
+    --error-color:#e12929e9;
+    --success-color:#4DB351;
+    --warning-color:#FF9800;
+    --white-color:#fff;
+}
+
+
+
+.alert{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: var(--white-color);
+    color: var(--white-color);
+    margin: .5rem;
+    padding: 0 0 0 1.5rem;
+    opacity: 0.0;
+    border-radius: 5px;
+}
+    .alert-primary{
+        background-color:var(--primary-color) ;
+    }
+    .alert-error{
+        background-color: var(--error-color);
+    }
+    .alert-success{
+        background-color: var(--success-color);
+    }
+    .alert-warning{
+        background-color: var(--warning-color);
+    } 
+
+    /* outline alerts */
+
+    .alert-outline-primary{
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+    }
+    .alert-outline-error{
+        color: var(--error-color);
+        border: 2px solid var(--error-color);
+    }
+    .alert-outline-success{
+        color: var(--success-color);
+        border: 2px solid var(--success-color);
+    }
+    .alert-outline-warning{
+        color: var(--warning-color);
+        border: 2px solid var(--warning-color);
+    }
