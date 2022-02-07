@@ -1,6 +1,46 @@
 @import url(./main/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Architects+Daughter&family=Balsamiq+Sans&family=Bangers&family=Cookie&family=Dancing+Script:wght@600;700&family=Dongle&family=Lato&family=Lobster&family=Monoton&family=Niconne&family=Open+Sans:wght@300&family=Pacifico&family=Playball&family=Press+Start+2P&family=Roboto:wght@400;500&family=Satisfy&display=swap');
 
-
-body{
-    background-color: var(--primary-color);
+*{
+    color: var(--gray-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --border-color:rgba(149, 146, 146, 0.211);
 }
+
+hr{
+    color: var(--border-color);
+}
+
+.navbar{
+    border-bottom: 2px solid var(--border-color);
+}
+ .navbar-logo{
+    font-family: 'satisfy', cursive;
+    font-size: 2rem;
+    color: transparent;
+    background:linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33));
+    background-clip: text;
+ }
+
+
+.list{
+    line-height: 2.3rem;
+} 
+    .list:hover{
+        color:#e23e5a;
+    }
+
+.container{
+    width: 100%;
+}   
+section{
+    padding: 1.2rem 0 0 1rem;
+    width: 50%;
+}
+    .section-context{
+        padding: 0.5rem 0 0.5rem 0;
+        line-height: 2rem;
+    }
+
+ 
+
