@@ -1,6 +1,7 @@
 @import url(./main/main.css);
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Architects+Daughter&family=Balsamiq+Sans&family=Bangers&family=Cookie&family=Dancing+Script:wght@600;700&family=Dongle&family=Lato&family=Lobster&family=Monoton&family=Niconne&family=Open+Sans:wght@300&family=Pacifico&family=Playball&family=Press+Start+2P&family=Roboto:wght@400;500&family=Satisfy&display=swap');
 
+
 *{
     color: var(--gray-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,9 +14,10 @@ body{
 
 hr{
     color: var(--border-color);
+    margin: 0 0 1rem;
 }
 iframe{
-    height: 25rem;
+    height: 16rem;
     width: 100%;
     margin: 0 0 1rem;
     transform: scale(1);
@@ -56,6 +58,7 @@ iframe{
 
 .container{
     width: 100%;
+    display: flex;
 }   
 section{
     padding: 1.2rem 0 0 1rem;
@@ -73,14 +76,26 @@ section{
      height: max-content;
      width: 100%;
  }  
-    .alert-contents{
+    .contents{
         height: max-content;
         width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
         background-color: rgba(128, 128, 128, 0.306);
         padding: 0.5rem;
         border-radius: 8px;
         margin: 1rem 0 1rem;
     }
+    
+    .alert-contents{
+        flex-direction: column;
+    }
 
-
+    .form{
+        background-color: var(--white-color);
+        border: 1px solid var(--border-color);
+        margin: 1rem 0 1rem;
+    }
 

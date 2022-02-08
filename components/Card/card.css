@@ -6,6 +6,7 @@
     height: max-content;
     width: 21rem;
     box-shadow:var(--box-shadow-gray);
+    background-color: var(--white-color);
     margin: 10px;
     position: relative;
 }
@@ -38,6 +39,7 @@
     .card-product{
         height: max-content;
         width: 20rem;
+        color: var(--white-color);
         box-shadow: var(--box-shadow-gray);
         margin: 1rem;
         position: relative;
@@ -156,33 +158,8 @@
 
 
 
-/* card buttons */
-    .btn{
-        min-width: 100px;
-        width: max-content;
-        font-weight: 500;
-        color: #fff;
-        background: var(--white-color);
-        padding: 0.6rem 1rem;
-        border: none;
-        cursor: pointer;
-        margin: 10px;
-    }   
 
-    .btn-primary{
-        color: var(--white-color);
-        background-color: var(--primary-color);
-
-    }
-
-
-    .btn-outline-primary{
-        color: var(--primary-color);
-        border: 2px solid var(--primary-color); 
-    }
-    .btn-fullWidth{
-        width: 85%;
-    }
+    
 
 /* card with image overlay */
     .card-img-overlay{

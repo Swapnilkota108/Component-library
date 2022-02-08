@@ -1,16 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle&family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
-
-*{
-    font-family: 'Andika', sans-serif;
-}
-
-
-:root{
-    --primary-color:#775ada;
-    --error-color:#e12929e9;
-    --success-color:#4DB351;
-    --secondary-color:#FF9800;
-}
+@import url(../../main/main.css);
 
 
 
@@ -19,8 +7,7 @@
     min-width: 100px;
     width: max-content;
     font-weight: 500;
-    color: #fff;
-    background-color: #fff;
+    color: var(--white-color);
     padding: 0.6rem 1rem;
     border: none;
     cursor: pointer;
@@ -86,7 +73,10 @@
         align-items: center;
     }
     
-       
+.last-section{
+    display: flex;
+    flex-direction: column;
+}
 
   /* Floating Active Button */
 

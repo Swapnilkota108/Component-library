@@ -23,10 +23,15 @@
 
 
 :root{
+  /*background color*/
+    --bg-blue:blue;
+
+
+
     --primary-color:#775ada;
     --error-color:#e12929e9;
     --success-color:#4DB351;
-    --warning-color:#FF9800;
+    --secondary-color:#FF9800;
     --white-color:#fff;
     --gray-color:gray;
     --dark-gray-color:rgb(90, 90, 90);
