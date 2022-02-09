@@ -27,6 +27,9 @@ iframe{
     z-index: 0;
 }
 
+.active{
+    color: #e23e5a;
+}
 
 .navbar{
     border-bottom: 2px solid var(--border-color);

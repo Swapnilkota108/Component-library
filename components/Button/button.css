@@ -73,10 +73,6 @@
         align-items: center;
     }
     
-.last-section{
-    display: flex;
-    flex-direction: column;
-}
 
   /* Floating Active Button */
 
