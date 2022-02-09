@@ -44,6 +44,7 @@ iframe{
     color: transparent;
     background:linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33));
     background-clip: text;
+    -webkit-background-clip: text;
  }
 
 .drawer{
