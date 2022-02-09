@@ -1,0 +1,41 @@
+@import url(../../main/main.css);
+
+
+.color-container{
+    height: 100%;
+    width: 20%;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   .color-palette{
+       height: 6rem;
+       width: 90%;
+       gap: 1rem;
+       padding: 1rem;
+       display: flex;
+       text-align: center;
+   }
+
+
+.primary-color{
+    background-color: var(--primary-color);
+}
+
+.secondary-color{
+    background-color: var(--warning-color);
+}
+
+.red-color{
+    background-color: var(--error-color);
+}
+
+.success-color{
+    background-color: var(--success-color);
+}
+
+.gray-color{
+    background-color: var(--gray-color);
+}
