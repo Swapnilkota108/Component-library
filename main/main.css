@@ -6,6 +6,7 @@
 @import url(../components/Badge/badge.css);
 @import url(../components/Button/button.css);
 @import url(../components/Card/card.css);
+@import url(../components/Colors/color.css);
 @import url(../components/Drawer/drawer.css);
 @import url(../components/Images/images.css);
 @import url(../components/Input/input.css);
@@ -17,24 +18,24 @@
 
   
   *{
+    font-family: 'Andika', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+body{
+  padding: 0 1rem 0;
+}
+
 
 :root{
-  /*background color*/
-    --bg-blue:blue;
-
-
-
     --primary-color:#775ada;
     --error-color:#e12929e9;
     --success-color:#4DB351;
-    --secondary-color:#FF9800;
+    --warning-color:#FF9800;
     --white-color:#fff;
-    --gray-color:gray;
-    --dark-gray-color:rgb(90, 90, 90);
+    --gray-color:#808080;
+    --blue-color:#482ff7;
 
     --box-shadow-gray:2px 2px 2px gray;
     

@@ -22,7 +22,7 @@
         background-color:var(--primary-color);
     }
     .btn-secondary{
-        background-color: var(--secondary-color);
+        background-color: var(--warning-color);
     }
     .btn-error{
         background-color: var(--error-color);
@@ -39,7 +39,7 @@
     }
     .btn-outline-secondary{
         color: var(--secondary-color);
-        border: 2px solid var(--secondary-color);
+        border: 2px solid var(--warning-color);
     }
     .btn-outline-error{
         color: var(--error-color);
@@ -66,8 +66,8 @@
    /* Icon Button */
 
     .btn-icon{
-        background-color: var(--secondary-color);
-        color: #000;
+        background-color: var(--primary-color);
+        color: var(--white-color);
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -80,7 +80,7 @@
     .btn-float{
         height:2.5rem;
         width: 2.5rem;
-        background-color: var(--secondary-color);
+        background-color: var(--primary-color);
         border-radius: 50%;
         border: none;
         display: flex;

@@ -7,10 +7,11 @@
     width: 21rem;
     box-shadow:var(--box-shadow-gray);
     background-color: var(--white-color);
+    color: var(--gray-color);
     margin: 10px;
     position: relative;
 }
-    .card h1,h2{
+    .card h1, .card h2{
        margin: 0;
        padding: 0.2rem 1rem 0;
     }
@@ -39,7 +40,7 @@
     .card-product{
         height: max-content;
         width: 20rem;
-        color: var(--white-color);
+        color: var(--gray-color);
         box-shadow: var(--box-shadow-gray);
         margin: 1rem;
         position: relative;
@@ -50,10 +51,10 @@
            width: 100%;
            border-bottom: 3px solid var(--primary-color);
        }
-       .card-product h1,.card-product p,h2{
-           font-size: 1rem;
-           padding: 0 1rem 0.2rem;
-       }
+       .card-product-text{
+        font-size: 1rem;
+        padding: 0 1rem 0.2rem;
+    }
         .card-product button{
            margin: 0 1rem 0.5rem;
            padding: 0.4rem;
