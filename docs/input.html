@@ -16,7 +16,7 @@
         <h1 class="navbar-logo">OnlyCSS</h1>
         <ul class="navbar-ul">
             <li class="list">Docs</li>
-            <li class="list">Installation</li>
+            <li class="list"><a href="../index.html">Installation</a></li>
             <li class="list">About</li>
         </ul>
 
@@ -26,6 +26,43 @@
             <li class="list"><i class="fab fa-github"></i></li>
         </ul>
     </nav>
+    <!---sidenav--><!---sidenav-->
+    <nav class="navbar-sidenav">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <h1 class="navbar-logo">OnlyCSS</h1>     
+             <ul class="navbar-ul">
+                <li class="list"><i class="fab fa-twitter"></i></li>
+                <li class="list"><i class="fab fa-github"></i></li>
+             </ul>  
+     </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <div class="drawer-list">
+            <ul class="ul-list">
+                <h1 class="section-heading">Get started</h1>
+                <hr>
+                <li class="list"><a class="active" href="../index.html">Installation</a></li>
+                <li class="list"><a href="./docs/color.html">Colors</a></li>
+                <li class="list"><a href="./docs/typography.html">Typography</a></li>
+            </ul>
+
+            <ul class="ul-list">
+                <h1 class="section-heading">Components</h1>
+                <hr>
+                <li class="list"><a class="active" href="alert.html">Alert</a></li>
+                <li class="list"><a href="avatar.html">Avatar</a></li>
+                <li class="list"><a href="badge.html">Badge</a></li>
+                <li class="list"><a href="button.html">Button</a></li>
+                <li class="list"><a href="card.html">Card</a></li>
+                <li class="list"><a href="image.html">Image</a></li>
+                <li class="list"><a href="input.html">Input</a></li>
+                <li class="list"><a href="list.html">List</a></li>
+            </ul>
+           </div>
+          </div> 
+
+          <script defer src="../docs.js"></script>
+          <!----------->
     <div class="container">
         <aside class="drawer list">
             <ul class="ul-list">
