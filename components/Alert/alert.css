@@ -1,22 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle&family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
-
-*{
-    font-family: 'Andika', sans-serif;
-}
-
-
-:root{
-    --primary-color:#775ada;
-    --error-color:#e12929e9;
-    --success-color:#4DB351;
-    --warning-color:#FF9800;
-    --white-color:#fff;
-}
-
-
+@import url(../../main/main.css);
 
 .alert{
-    height: 50px;
+    height: 3rem;
     width: 90%;
     display: flex;
     align-items: center;
@@ -24,7 +9,6 @@
     color: var(--white-color);
     margin: .5rem;
     padding: 0 0 0 1.5rem;
-    opacity: 0.0;
     border-radius: 5px;
 }
     .alert-primary{
