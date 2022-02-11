@@ -1,0 +1,12 @@
+@import url("../../main/main.css");
+
+.toast{
+    background-color: var(--gray-color);
+    color: var(--white-color);
+    visibility:hidden;
+    width: 12rem;
+    padding: 1rem;
+    position: fixed;
+    left: 45%;
+    bottom: 1rem;
+}
