@@ -119,6 +119,17 @@ section{
     .color-container{
         color: var(--white-color);
     }
+
+    .grid-2 > *,.grid-3 > *{
+        background-color: var(--primary-color);
+    }
+
+    .grid-2, .grid-3{
+        color:var(--white-color) ;
+        height: max-content;
+        width: 100%;
+        gap: 0.5rem;
+    }
     
     
 @media screen and (max-width:1000px) {
