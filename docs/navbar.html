@@ -43,7 +43,7 @@
             <ul class="ul-list">
                 <h1 class="section-heading">Get started</h1>
                 <hr>
-                <li class="list"><a href="../index.html">Installation</a></li>
+                <li class="list"><a class="active" href="../index.html">Installation</a></li>
                 <li class="list"><a href="color.html">Colors</a></li>
                 <li class="list"><a href="typography.html">Typography</a></li>
             </ul>
@@ -58,7 +58,6 @@
                 <li class="list"><a href="card.html">Card</a></li>
                 <li class="list"><a href="image.html">Image</a></li>
                 <li class="list"><a href="input.html">Input</a></li>
-                <li class="list"><a href="rating.html">Rating</a></li>
                 <li class="list"><a href="navbar.html">Navbar</a></li>
                 <li class="list"><a href="rating.html">Rating</a></li>
                 <li class="list"><a href="modal.html">Modal</a></li>
@@ -91,9 +90,8 @@
                 <li class="list"><a href="card.html">Card</a></li>
                 <li class="list"><a href="image.html">Image</a></li>
                 <li class="list"><a href="input.html">Input</a></li>
-                <li class="list"><a href="rating.html">Rating</a></li>
+                <li class="list"><a class="active" href="rating.html">Rating</a></li>
                 <li class="list"><a href="navbar.html">Navbar</a></li>
-                <li class="list"><a href="rating.html">Rating</a></li>
                 <li class="list"><a href="modal.html">Modal</a></li>
                 <li class="list"><a href="toast.html">Toast</a></li>
                 <li class="list"><a href="grid.html">Grid</a></li>
@@ -101,34 +99,30 @@
             </ul>
         </aside>
         <section>
-            <h1 class="section-heading">Grid</h1>
-            <p class="section-context">Simple grid with 2x2 items can be creted using "grid-2" class and "grid-3" for
-                3X3 items.</p>
-                <hr>
-                <h1 class="section-heading">2X2 Grid</h1>           
-               <div class="contents">
-                <div class="grid-2">
-                <li class="list">1</li>
-                <li class="list">2</li>
-                <li class="list">3</li>
-                <li class="list">4</li></div>
-                <div class="grid-3"></div>
-               </div>
-               <hr>
-               <h1 class="section-heading">3X3 Grid</h1>
-                <div class="contents">
-                   <div class="grid-3">
-                       <li class="list">1</li>
-                       <li class="list">2</li>
-                       <li class="list">3</li>
-                       <li class="list">4</li>
-                       <li class="list">5</li>
-                       <li class="list">6</li>
-                       <li class="list">7</li>
-                       <li class="list">8</li>
-                       <li class="list">9</li>
-                   </div>
-                </div>
+            <h1 class="section-heading">Navbar</h1>
+            <p class="section-context">Copy the code below to create this navbar.</p>
+           
+                <nav class="navbar">
+                    <h1 class="navbar-logo">Nav</h1>
+                    <ul class="navbar-ul">
+                        <li class="list">Home</li>
+                        <li class="list">Docs</li>
+                        <li class="list">More</li>
+                        <li class="list">About</li>
+                    </ul>
+                    <div class="input-search-container">
+                    </div>
+                    <ul class="navbar-ul navbar-icon">
+                        <li class="list"><i class="fab fa-twitter"></i></li>
+                        <li class="list"><i class="fab fa-github"></i></li>
+                    </ul>
+                </nav>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=678.5&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522navbar-logo%2522%253ENav%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar-ul%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253EDocs%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253EMore%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253EAbout%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-search-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar-ul%2520navbar-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253E%253Ci%2520class%253D%2522fab%2520fa-twitter%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253E%253Ci%2520class%253D%2522fab%2520fa-github%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E"
+  style="width: 679px; height: 503px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
 
         </section>
     </div>
