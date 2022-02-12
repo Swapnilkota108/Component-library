@@ -43,7 +43,7 @@
             <ul class="ul-list">
                 <h1 class="section-heading">Get started</h1>
                 <hr>
-                <li class="list"><a href="../index.html">Installation</a></li>
+                <li class="list"><a class="active" href="../index.html">Installation</a></li>
                 <li class="list"><a href="color.html">Colors</a></li>
                 <li class="list"><a href="typography.html">Typography</a></li>
             </ul>
@@ -58,16 +58,12 @@
                 <li class="list"><a href="card.html">Card</a></li>
                 <li class="list"><a href="image.html">Image</a></li>
                 <li class="list"><a href="input.html">Input</a></li>
-                <li class="list"><a href="rating.html">Rating</a></li>
                 <li class="list"><a href="navbar.html">Navbar</a></li>
                 <li class="list"><a href="rating.html">Rating</a></li>
                 <li class="list"><a href="modal.html">Modal</a></li>
                 <li class="list"><a href="toast.html">Toast</a></li>
                 <li class="list"><a href="grid.html">Grid</a></li>
                 <li class="list"><a href="list.html">List</a></li>
-
-             
-
             </ul>
         </div>
     </div>
@@ -94,49 +90,31 @@
                 <li class="list"><a href="card.html">Card</a></li>
                 <li class="list"><a href="image.html">Image</a></li>
                 <li class="list"><a href="input.html">Input</a></li>
-                <li class="list"><a href="rating.html">Rating</a></li>
                 <li class="list"><a href="navbar.html">Navbar</a></li>
                 <li class="list"><a href="rating.html">Rating</a></li>
                 <li class="list"><a href="modal.html">Modal</a></li>
-                <li class="list"><a href="toast.html">Toast</a></li>
+                <li class="list active"><a href="toast.html">Toast</a></li>
                 <li class="list"><a href="grid.html">Grid</a></li>
                 <li class="list"><a href="list.html">List</a></li>
-
             </ul>
         </aside>
         <section>
-            <h1 class="section-heading">Grid</h1>
-            <p class="section-context">Simple grid with 2x2 items can be creted using "grid-2" class and "grid-3" for
-                3X3 items.</p>
-                <hr>
-                <h1 class="section-heading">2X2 Grid</h1>           
-               <div class="contents">
-                <div class="grid-2">
-                <li class="list">1</li>
-                <li class="list">2</li>
-                <li class="list">3</li>
-                <li class="list">4</li></div>
-                <div class="grid-3"></div>
-               </div>
-               <hr>
-               <h1 class="section-heading">3X3 Grid</h1>
-                <div class="contents">
-                   <div class="grid-3">
-                       <li class="list">1</li>
-                       <li class="list">2</li>
-                       <li class="list">3</li>
-                       <li class="list">4</li>
-                       <li class="list">5</li>
-                       <li class="list">6</li>
-                       <li class="list">7</li>
-                       <li class="list">8</li>
-                       <li class="list">9</li>
-                   </div>
-                </div>
-
+            <h1 class="section-heading">Toast</h1>
+            <p class="section-context">Toast are pop-up messages which appears at the top or bottom and disappears after few seconds. Use the class "toast" to create one.</p>
+            <button class="btn btn-primary">Show Toast</button>
+            <div class="toast">This is a toast.....</div>
         </section>
     </div>
-
+    
+    <script>
+        const button = document.querySelector(".btn");
+       button.addEventListener('click',()=>{
+           document.querySelector('.toast').style.visibility = "visible";
+           setTimeout(() => {
+           document.querySelector('.toast').style.visibility = "hidden";
+           }, 3000);
+       })
+    </script>
     <script src="https://kit.fontawesome.com/b9a620178b.js" crossorigin="anonymous"></script>
 
 </body>
