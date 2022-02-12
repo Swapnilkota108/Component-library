@@ -1,0 +1,12 @@
+@import url(../../main/main.css);
+
+.modal{
+    display: none;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    position:sticky;
+}
+
+@keyframes animatetop {
+    from {top: -30px; opacity:0} to {top: 0; opacity: 1;}
+} 
