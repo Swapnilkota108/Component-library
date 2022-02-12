@@ -1,0 +1,5 @@
+@import url("../../main/main.css");
+
+.rated{
+    color:var(--warning-color) ;
+}
