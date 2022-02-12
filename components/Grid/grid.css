@@ -1,0 +1,17 @@
+@import url("../../main/main.css");
+
+body{
+    height: 100vh;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr); 
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
