@@ -3,3 +3,51 @@
 .text-center{
     text-align: center;
 }
+
+.text-gray{
+    color:gray;
+}
+
+.text-grayLight{
+    color: rgb(187, 185, 185);
+}
+
+.text-grayMedium{
+    color: rgb(160, 158, 158);
+}
+
+.text-grayDark{
+    color:rgb(76, 76, 76)
+}
+
+.line-height0{
+    line-height: 0.7rem;
+}
+
+.line-height1{
+    line-height: 1rem;
+}
+
+.line-height2{
+    line-height: 1.2rem;
+}
+
+.line-height3{
+    line-height: 1.3rem;
+}
+
+.font-size1{
+    font-size: 1rem;
+}
+
+.font-size2{
+    font-size: 2rem;
+}
+
+.font-size3{
+    font-size: 3rem;
+}
+
+.font-size4{
+    font-size: 4rem;
+}
