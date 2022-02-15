@@ -28,5 +28,9 @@
         <li>Images - "img" class is used to create an simple image. "img-round" for round images and "img-responsive" for responsive images.<hr>
         <li>Input - forms are created using "form" class and their respective classes foir child element.<hr>
         <li>List - To create a simple list without any styles use the "list" class. To create specific style list "list-specify" class can be used, eg."list-circle" for circular highlight.<hr>
-  
-  
+  <li>Navbar - 
+    <hr>
+  <li>Modal - To create a modal "modal" class can be used in cards or different components. A modal component has two button with classes "modal-close" and "modal-accept" to perform the required action.
+    <hr
+  <li>Toast - Simply use the class "toast" to apply toast properties in your components.
+    <hr>
