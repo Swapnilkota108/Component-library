@@ -1,0 +1,23 @@
+
+
+.list{
+    list-style: none;
+}
+
+.list-circle{
+    list-style:circle;
+}
+.list-square{
+    list-style: square;
+}
+.list-disc{
+    list-style: disc;
+}
+.list-number{
+    list-style: decimal;
+}
+
+.ul-list{
+    padding: 1rem 0 1rem 0;
+}
+

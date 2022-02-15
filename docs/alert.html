@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OnlyCSS</title>
+    <link rel=icon href="logo.PNG">
+</head>
+<link rel="stylesheet" href="../docs.css">
+
+<body>
+    <nav class="navbar">
+        <h1 class="navbar-logo">OnlyCSS</h1>
+        <ul class="navbar-ul">
+            <li class="list">Docs</li>
+            <li class="list"><a href="../index.html">Installation</a></li>
+            <li class="list">About</li>
+        </ul>
+
+        </div>
+        <ul class="navbar-ul navbar-icon">
+            <li class="list"><a href="https://twitter.com/KotaSwapnil"><i class="fab fa-twitter"></i></a></li>
+            <li class="list"><a href="https://github.com/Swapnilkota108"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </nav>
+    <!---sidenav--><!---sidenav-->
+    <nav class="navbar-sidenav">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <h1 class="navbar-logo">OnlyCSS</h1>     
+             <ul class="navbar-ul">
+                <li class="list"><i class="fab fa-twitter"></i></li>
+                <li class="list"><i class="fab fa-github"></i></li>
+             </ul>  
+     </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <div class="drawer-list">
+            <ul class="ul-list">
+                <h1 class="section-heading">Get started</h1>
+                <hr>
+                <li class="list"><a class="active" href="../index.html">Installation</a></li>
+                <li class="list"><a href="./docs/color.html">Colors</a></li>
+                <li class="list"><a href="./docs/typography.html">Typography</a></li>
+            </ul>
+
+            <ul class="ul-list">
+                <h1 class="section-heading">Components</h1>
+                <hr>
+                <li class="list"><a class="active" href="alert.html">Alert</a></li>
+                <li class="list"><a href="avatar.html">Avatar</a></li>
+                <li class="list"><a href="badge.html">Badge</a></li>
+                <li class="list"><a href="button.html">Button</a></li>
+                <li class="list"><a href="card.html">Card</a></li>
+                <li class="list"><a href="image.html">Image</a></li>
+                <li class="list"><a href="input.html">Input</a></li> 
+                <li class="list"><a href="navbar.html">Navbar</a></li>
+                <li class="list"><a href="rating.html">Rating</a></li>
+                <li class="list"><a href="modal.html">Modal</a></li>
+                <li class="list"><a href="toast.html">Toast</a></li>
+                <li class="list"><a href="grid.html">Grid</a></li>
+                <li class="list"><a href="list.html">List</a></li>
+            </ul>
+           </div>
+          </div> 
+
+          <script defer src="../docs.js"></script>
+          <!----------->
+    <div class="container">
+        <aside class="drawer list">
+            <ul class="ul-list">
+                <h1 class="section-heading"> Get started</h1>
+                <hr>
+                <li class="list"><a href="../index.html">Installation</a></li>
+                <li class="list"><a href="color.html">Colors</a></li>
+                <li class="list"><a href="typography.html">Typography</a></li>
+            </ul>
+
+
+            <ul class="ul-list">
+                <h1 class="section-heading">Components</h1>
+                <hr>
+                <li class="list"><a class="active" href="alert.html">Alert</a></li>
+                <li class="list"><a href="avatar.html">Avatar</a></li>
+                <li class="list"><a href="badge.html">Badge</a></li>
+                <li class="list"><a href="button.html">Button</a></li>
+                <li class="list"><a href="card.html">Card</a></li>
+                <li class="list"><a href="image.html">Image</a></li>
+                <li class="list"><a href="input.html">Input</a></li> 
+                <li class="list"><a href="navbar.html">Navbar</a></li>
+                <li class="list"><a href="rating.html">Rating</a></li>
+                <li class="list"><a href="modal.html">Modal</a></li>
+                <li class="list"><a href="toast.html">Toast</a></li>
+                <li class="list"><a href="grid.html">Grid</a></li>
+                <li class="list"><a href="list.html">List</a></li>
+            </ul>
+        </aside>
+        <section>
+            
+                <h1 class="section-heading">Alert</h1>
+            <p class="section-context">
+                Alert are used to prompt feedback messages to the user.
+            </p>
+            <hr>
+            <h1 class="section-heading">Simple Alert</h1>
+            <p class="section-context">
+                Simple Alerts comes in 4 styles, To apply proper styles use the contextual classes for the alert.
+            </p>
+               <div class="contents alert-contents">
+                <div class="alert alert-primary">
+                    <strong>Primary!</strong> This is a Primary Alert.
+                </div>
+                <div class="alert alert-error">
+                    <strong>Error!</strong> This is an Error Alert.
+                </div>
+                <div class="alert alert-success" >
+                   <strong> Success!</strong> This is a Success Alert.
+                </div>
+                <div class="alert alert-warning">
+                    <strong>Warning!</strong> This is a Warning.
+                </div>
+               </div>
+               <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=701&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert.%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert.%250A%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253E%2520Success%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert.%250A%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning.%250A%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+  style="width: 701px; height: 428px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+             
+             
+
+                <hr>
+                <h1 class="section-heading">Outlined Alert </h1>
+                <p class="section-context">
+                  Outlined Alerts comes in 4 styles. Below here are the examples.
+                </p>
+               <div class="alert-contents contents">
+                <div class="alert alert-outline-primary">
+                    <strong>Primary!</strong> This is a Primary Alert.
+                </div>
+                <div class="alert alert-outline-error">
+                    <strong>Error!</strong> This is an Error Alert.
+                </div>
+                <div class="alert alert-outline-success" >
+                   <strong> Success!</strong> This is a Success Alert.
+                </div>
+                <div class="alert alert-outline-warning">
+                    <strong>Warning!</strong> This is a Warning.
+                </div>
+               </div>    
+               <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=701&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert.%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert.%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253E%2520Success%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert.%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning.%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+  style="width: 701px; height: 428px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+             
+                    
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/b9a620178b.js" crossorigin="anonymous"></script>
+
+</body>
+
+    
+
+</html>

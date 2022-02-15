@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OnlyCSS</title>
+    <link rel=icon href="logo.PNG">
+</head>
+<link rel="stylesheet" href="../docs.css">
+
+<body>
+    <nav class="navbar">
+        <h1 class="navbar-logo">OnlyCSS</h1>
+        <ul class="navbar-ul">
+            <li class="list">Docs</li>
+            <li class="list"><a href="../index.html">Installation</a></li>
+            <li class="list">About</li>
+        </ul>
+
+        </div>
+        <ul class="navbar-ul navbar-icon">
+            <li class="list"><i class="fab fa-twitter"></i></li>
+            <li class="list"><i class="fab fa-github"></i></li>
+        </ul>
+    </nav>
+    <!---sidenav--><!---sidenav-->
+    <nav class="navbar-sidenav">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <h1 class="navbar-logo">OnlyCSS</h1>     
+             <ul class="navbar-ul">
+                <li class="list"><i class="fab fa-twitter"></i></li>
+                <li class="list"><i class="fab fa-github"></i></li>
+             </ul>  
+     </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <div class="drawer-list">
+            <ul class="ul-list">
+                <h1 class="section-heading">Get started</h1>
+                <hr>
+                <li class="list"><a class="active" href="../index.html">Installation</a></li>
+                <li class="list"><a href="./docs/color.html">Colors</a></li>
+                <li class="list"><a href="./docs/typography.html">Typography</a></li>
+            </ul>
+
+            <ul class="ul-list">
+                <h1 class="section-heading">Components</h1>
+                <hr>
+                <li class="list"><a class="active" href="alert.html">Alert</a></li>
+                <li class="list"><a href="avatar.html">Avatar</a></li>
+                <li class="list"><a href="badge.html">Badge</a></li>
+                <li class="list"><a href="button.html">Button</a></li>
+                <li class="list"><a href="card.html">Card</a></li>
+                <li class="list"><a href="image.html">Image</a></li>
+                <li class="list"><a href="input.html">Input</a></li>
+                <li class="list"><a href="navbar.html">Navbar</a></li>
+                <li class="list"><a href="rating.html">Rating</a></li>
+                <li class="list"><a href="modal.html">Modal</a></li>
+                <li class="list"><a href="toast.html">Toast</a></li>
+                <li class="list"><a href="grid.html">Grid</a></li>
+                <li class="list"><a href="list.html">List</a></li>
+            </ul>
+           </div>
+          </div> 
+
+          <script defer src="../docs.js"></script>
+          <!----------->
+    <div class="container">
+        <aside class="drawer list">
+            <ul class="ul-list">
+                <h1 class="section-heading">Get started</h1>
+                <hr>
+                <li class="list"><a href="../index.html">Installation</a></li>
+                <li class="list"><a href="color.html">Colors</a></li>
+                <li class="list"><a href="typography.html">Typography</a></li>
+            </ul>
+
+            <ul class="ul-list">
+                <h1 class="section-heading">Components</h1>
+                <hr>
+                <li class="list"><a href="alert.html">Alert</a></li>
+                <li class="list"><a href="avatar.html">Avatar</a></li>
+                <li class="list"><a href="badge.html">Badge</a></li>
+                <li class="list"><a href="button.html">Button</a></li>
+                <li class="list"><a href="card.html">Card</a></li>
+                <li class="list"><a href="image.html">Image</a></li>
+                <li class="list"><a class="active" href="input.html">Input</a></li>
+                <li class="list"><a href="navbar.html">Navbar</a></li>
+                <li class="list"><a href="rating.html">Rating</a></li>
+                <li class="list"><a href="modal.html">Modal</a></li>
+                <li class="list"><a href="toast.html">Toast</a></li>
+                <li class="list"><a href="grid.html">Grid</a></li>
+                <li class="list"><a href="list.html">List</a></li>
+            </ul>
+        </aside>
+        <section>
+            <h1 class="section-heading">Input</h1>
+            <p class="section-context">
+                Input are used to take data from the user. Below are some of the examples.
+            </p>
+            <hr>
+            <h1 class="section-heading">Form</h1>
+            <p class="section-context">Forms are used to take user data. Copy the code below to start using forms.</p>
+
+            <form class="form" action="user-details">
+                <label for="fname">First Name</label>
+                <input type="text" name="firstName" class="form-input" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" name="lastName" class="form-input" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select name="country" class="form-select">
+                    <option value="australia">Australia</option>
+                    <option value="india">India</option>
+                    <option value="USA">USA</option>
+                </select>
+                <input class="form-input form-btn" type="submit" value="Submit">
+            </form>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=731.25&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%2520action%253D%2522user-details%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522fname%2522%253EFirst%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522firstName%2522%2520class%253D%2522form-input%2522%2520placeholder%253D%2522Your%2520name..%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522lname%2522%253ELast%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522lastName%2522%2520class%253D%2522form-input%2522%2520placeholder%253D%2522Your%2520last%2520name..%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522country%2522%253ECountry%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cselect%2520name%253D%2522country%2522%2520class%253D%2522form-select%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522australia%2522%253EAustralia%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522india%2522%253EIndia%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522USA%2522%253EUSA%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fselect%253E%250A%253Cinput%2520class%253D%2522form-input%2520form-btn%2522%2520type%253D%2522submit%2522%2520value%253D%2522Submit%2522%253E%250A%2520%253C%252Fform%253E"
+                style="width: 679px; height: 485px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <hr>
+            <h1 class="section-heading">LogIn</h1>
+            <p class="section-context">This is an input element to log in. Copy the code below to get started.</p>
+            <form class="form" action="login">
+                <label for="UserName">Username*</label>
+                <input type="text" name="Username" class="form-input">
+
+                <label for="Password">Password*</label>
+                <input type="text" name="Password" class="form-input">
+
+                <input type="submit" value="Submit" class="form-btn form-input">
+            </form>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=678.5&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522form%2522%2520action%253D%2522login%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522UserName%2522%253EUsername*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522Username%2522%2520class%253D%2522form-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Password%2522%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522Password%2522%2520class%253D%2522form-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522submit%2522%2520value%253D%2522Submit%2522%2520class%253D%2522form-btn%2520form-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
+                style="width: 679px; height: 355px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <hr>
+            <h1>Login error</h1>
+            <form class="form" action="login-error">
+                <label for="UserName">Username*</label>
+                <input type="text" name="Username" class="form-input">
+
+                <label class="error-text" for="Password">Password*</label>
+                <input type="text" name="Password" class="form-error form-input ">
+                <p class="error-text">Wrong password. Please try again</p>
+            </form>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=678.5&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522form%2522%2520action%253D%2522login-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522UserName%2522%253EUsername*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522Username%2522%2520class%253D%2522form-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522error-text%2522%2520for%253D%2522Password%2522%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522Password%2522%2520class%253D%2522form-error%2520form-input%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522error-text%2522%253EWrong%2520password.%2520Please%2520try%2520again%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
+                style="width: 679px; height: 374px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <hr>
+            <h1 class="section-heading">Radio button</h1>
+            <p class="section-context">Radio buttons allows users to select one option. Copy the code below to start using them.</p>
+            <div class="contents">
+                <div class="radio">
+                    <label for="radio" class="label-radio">
+                        <input name="radio" type="radio" class="input-radio">
+                        Yes
+                    </label>
+                    <label for="radio" class="label-radio">
+                        <input name="radio" type="radio" class="input-radio">
+                        No
+                    </label>
+                </div>
+            </div>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=678.5&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio%2522%2520class%253D%2522label-radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520class%253D%2522input-radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Yes%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio%2522%2520class%253D%2522label-radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520class%253D%2522input-radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520No%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 679px; height: 355px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            <hr>
+            <h1 class="section-heading">Checkbox</h1>
+            <p class="section-context">Checkbox allow users to select multiple options.</p>
+            <div class="contents">
+                <div class="radio">
+                    <label for="radio" class="label-radio">
+                        <input name="radio" type="checkbox" class="checkbox">
+                        Pizza
+                    </label>
+                    <label for="radio" class="label-radio">
+                        <input name="radio" type="checkbox" class="checkbox">
+                        Veggies
+                    </label>
+                </div>
+            </div>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=678.5&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio%2522%2520class%253D%2522label-radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520name%253D%2522radio%2522%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Yes%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio%2522%2520class%253D%2522label-radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520name%253D%2522radio%2522%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520No%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 679px; height: 355px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <hr>
+            <!-- search input -->
+            <h1 class="section-heading">Search Input</h1>
+            <p class="section-context">Copy the code below to use this search element.</p>
+            <div class="contents">
+                <div class="input-search-container">
+                    <input class="input-search" type="search" placeholder="search">
+                    <i class="search-icon fas fa-search"></i>
+                </div>
+            </div>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=678.5&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-search-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-search%2522%2520type%253D%2522search%2522%2520placeholder%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522search-icon%2520fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 679px; height: 262px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+            <script src="https://kit.fontawesome.com/b9a620178b.js" crossorigin="anonymous"></script>
+
+
+        </section>
+    </div>
+
+
+</body>
+
+
+
+
+</html>

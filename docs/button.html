@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OnlyCSS</title>
+    <link rel=icon href="logo.PNG">
+</head>
+<link rel="stylesheet" href="../docs.css">
+
+<body>
+    <nav class="navbar">
+        <h1 class="navbar-logo">OnlyCSS</h1>
+        <ul class="navbar-ul">
+            <li class="list">Docs</li>
+            <li class="list"><a href="../index.html">Installation</a></li>
+            <li class="list">About</li>
+        </ul>
+
+        </div>
+        <ul class="navbar-ul navbar-icon">
+            <li class="list"><a href="https://twitter.com/KotaSwapnil"><i class="fab fa-twitter"></i></a></li>
+            <li class="list"><a href="https://github.com/Swapnilkota108"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </nav>
+    <!---sidenav--><!---sidenav-->
+    <nav class="navbar-sidenav">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <h1 class="navbar-logo">OnlyCSS</h1>     
+             <ul class="navbar-ul">
+                <li class="list"><i class="fab fa-twitter"></i></li>
+                <li class="list"><i class="fab fa-github"></i></li>
+             </ul>  
+     </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <div class="drawer-list">
+            <ul class="ul-list">
+                <h1 class="section-heading">Get started</h1>
+                <hr>
+                <li class="list"><a class="active" href="../index.html">Installation</a></li>
+                <li class="list"><a href="./docs/color.html">Colors</a></li>
+                <li class="list"><a href="./docs/typography.html">Typography</a></li>
+            </ul>
+
+            <ul class="ul-list">
+                <h1 class="section-heading">Components</h1>
+                <hr>
+                <li class="list"><a class="active" href="alert.html">Alert</a></li>
+                <li class="list"><a href="avatar.html">Avatar</a></li>
+                <li class="list"><a href="badge.html">Badge</a></li>
+                <li class="list"><a href="button.html">Button</a></li>
+                <li class="list"><a href="card.html">Card</a></li>
+                <li class="list"><a href="image.html">Image</a></li>
+                <li class="list"><a href="input.html">Input</a></li> 
+                <li class="list"><a href="navbar.html">Navbar</a></li>
+                <li class="list"><a href="rating.html">Rating</a></li>
+                <li class="list"><a href="modal.html">Modal</a></li>
+                <li class="list"><a href="toast.html">Toast</a></li>
+                <li class="list"><a href="grid.html">Grid</a></li>
+                <li class="list"><a href="list.html">List</a></li>
+            </ul>
+           </div>
+          </div> 
+
+          <script defer src="../docs.js"></script>
+          <!----------->
+    <div class="container">
+        <aside class="drawer list">
+            <ul class="ul-list">
+                <h1 class="section-heading"> Get started</h1>
+                <hr>
+                <li class="list"><a href="../index.html">Installation</a></li>
+                <li class="list"><a href="color.html">Colors</a></li>
+                <li class="list"><a href="typography.html">Typography</a></li>
+            </ul>
+
+            <ul class="ul-list">
+                <h1 class="section-heading">Components</h1>
+                <hr>
+                <li class="list"><a href="alert.html">Alert</a></li>
+                <li class="list"><a href="avatar.html">Avatar</a></li>
+                <li class="list"><a href="badge.html">Badge</a></li>
+                <li class="list"><a class="active" href="button.html">Button</a></li>
+                <li class="list"><a href="card.html">Card</a></li>
+                <li class="list"><a href="image.html">Image</a></li>
+                <li class="list"><a href="input.html">Input</a></li> 
+                <li class="list"><a href="navbar.html">Navbar</a></li>
+                <li class="list"><a href="rating.html">Rating</a></li>
+                <li class="list"><a href="modal.html">Modal</a></li>
+                <li class="list"><a href="toast.html">Toast</a></li>
+                <li class="list"><a href="grid.html">Grid</a></li>
+                <li class="list"><a href="list.html">List</a></li>
+            </ul>
+        </aside>
+        <section>
+            <h1 class="section-heading">Button</h1>
+            <p class="section-context">
+                Buttons are used to perform some action.
+            </p>
+            <hr>
+            <h1 class="section-heading">Simple Buttons</h1>
+            <p class="section-context">Simple buttons can be created using btn class followed by btn-specificity.</p>
+            <div class="contents">
+                <button class="btn btn-primary">Primary</button>
+                <button class="btn btn-secondary">Secondary</button>
+                <button class="btn btn-error">Error</button>
+                <button class="btn btn-success">Success</button>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=701&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-error%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E"
+                style="width: 701px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr>
+            <h1 class="section-heading">Outlined Button</h1>
+            <p class="section-context">Outlined buttons can be created using btn class followed by
+                btn-outline-specificity.</p>
+            <div class="contents">
+                <button class="btn btn-outline-primary">Primary</button>
+                <button class="btn btn-outline-secondary">Secondary</button>
+                <button class="btn btn-outline-error">Error</button>
+                <button class="btn btn-outline-success">Success</button>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=701&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-error%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2522%253ESuccess%253C%252Fbutton%253E"
+                style="width: 701px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr>
+            <hr>
+            <h1 class="section-heading">Link Button</h1>
+            <p class="section-context">Link buttons contains link to some other page. Link buttons can be created using
+                btn followed by btn-link.</p>
+            <button class="btn btn-link"><a href="link">Link</a></button>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=674.75&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522link%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="width: 731px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <hr>
+            <h1 class="section-heading">Button with Icon</h1>
+            <p class="section-context">Button with a icon can be created using btn class followed by btn-icon class.</p>
+            <button class="btn btn-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 482 512">
+                    <path
+                        d="M433.941 129.941l-83.882-83.882A48 48 0 0 0 316.118 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V163.882a48 48 0 0 0-14.059-33.941zM224 416c-35.346 0-64-28.654-64-64 0-35.346 28.654-64 64-64s64 28.654 64 64c0 35.346-28.654 64-64 64zm96-304.52V212c0 6.627-5.373 12-12 12H76c-6.627 0-12-5.373-12-12V108c0-6.627 5.373-12 12-12h228.52c3.183 0 6.235 1.264 8.485 3.515l3.48 3.48A11.996 11.996 0 0 1 320 111.48z" />
+                </svg> Save</button>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=731.25&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%253E%253C%252Fsvg%253E%2520Save%2520%253C%252Fbutton%253E"
+                style="width: 731px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <hr>
+            <h1 class="section-heading">Floating action button</h1>
+            <p class="section-context">Floating buttons can be created using btn-float class.</p>
+            <div class="contents">
+                <button class="btn-float">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                    </svg>
+                </button>
+                <button class="btn-float">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
+                    </svg>
+                </button>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28187%2C187%2C187%2C1%29&t=cobalt&wt=sharp&l=coffeescript&width=731.25&ds=true&dsyoff=3px&dsblur=13px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-float%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%253E%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-float%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%253E%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
+                style="width: 731px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </section>
+    </div>
+
+    <script src="https://kit.fontawesome.com/b9a620178b.js" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+</html>

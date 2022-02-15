@@ -1,12 +1,38 @@
 
+@import url(../components/Images/images.css);
 @import url(../components/Input/input.css);
+@import url(../components/Alert/alert.css);
+@import url(../components/Avatar/avatar.css);
+@import url(../components/Badge/badge.css);
+@import url(../components/Button/button.css);
+@import url(../components/Card/card.css);
+@import url(../components/Colors/color.css);
+@import url(../components/Drawer/drawer.css);
+@import url(../components/Grid/grid.css);
+@import url(../components/Images/images.css);
+@import url(../components/Input/input.css);
+@import url(../components/Navbar/navbar.css);
+@import url(../components/Typography/typography.css);
+@import url(../components/Toast/toast.css);
+@import url(../components/List/list.css);
+@import url(../components/Rating/rating.css);
+@import url(../components/Modal/modal.css);
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle&family=Lato&family=Lobster&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
 
   
   *{
     font-family: 'Andika', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body{
+  padding: 0 1rem 0;
 }
 
 
@@ -16,7 +42,9 @@
     --success-color:#4DB351;
     --warning-color:#FF9800;
     --white-color:#fff;
-    --gray-color:gray;
+    --gray-color:#808080;
+    --blue-color:#482ff7;
+    --highlight-color:#ea4452;
 
     --box-shadow-gray:2px 2px 2px gray;
     
@@ -41,6 +69,5 @@
   font-family: var(--lobster);
 }
 
-.list{
-  list-style: none;
-}
+
+

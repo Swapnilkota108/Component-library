@@ -21,11 +21,34 @@
             <ul class="navbar-ul navbar-icon">
                <li class="list"><i class="fab fa-twitter"></i></li>
                <li class="list"><i class="fab fa-github"></i></li>
-              
-
             </ul>  
     </nav>
+
+    <nav class="navbar-sidenav">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <h1 class="navbar-logo">Nav</h1>     
+             <ul class="navbar-ul">
+                <li class="list"><i class="fab fa-twitter"></i></li>
+                <li class="list"><i class="fab fa-github"></i></li>
+             </ul>  
+     </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           
+          </div>   
+           
+        
+
     <script src="https://kit.fontawesome.com/b9a620178b.js" crossorigin="anonymous"></script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
 
 </body>
 </html>
