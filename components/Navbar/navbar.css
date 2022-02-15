@@ -1,0 +1,83 @@
+@import url(../../main/main.css);
+
+/* This is  navbar */
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.8rem;
+    width: 100%;
+    color: var(--gray-color);
+} 
+    .navbar-logo, .navbar-ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-logo{
+        min-width: 7rem;
+    }
+    .navbar-ul{
+        gap: 2rem;
+        padding: 0 1rem 0 6rem;
+    }
+    .navbar-icon{
+        margin-left: auto;      
+    }
+    .list{
+        cursor: pointer;
+        
+    }
+
+    .navbar-sidenav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0.8rem;
+        color: var(--gray-color);
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: var(--white-color);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding: 1rem 0 1rem 0;
+      }
+      
+      .sidenav a {
+        line-height: 2.3rem;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        padding: 0 1rem 0 ;
+
+      }
+      
+      .sidenav a:hover {
+        color: var(--highlight-color);
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0.7rem;
+        left:9rem ;
+        font-size: 2.5rem;
+        margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .drawer-list{
+          padding-left: 1rem;
+        }
+      }
+    
