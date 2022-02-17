@@ -6,6 +6,7 @@
     justify-content: flex-start;
     padding: 0.8rem;
     width: 100%;
+    z-index: 2;
     color: var(--gray-color);
 } 
     .navbar-logo, .navbar-ul{
@@ -30,10 +31,14 @@
 
     .navbar-sidenav{
         display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 1;
         justify-content: space-between;
         width: 100%;
         padding: 0.8rem;
         color: var(--gray-color);
+        background-color: var(--white-color);
         border-bottom: 1px solid var(--border-color);
     }
     

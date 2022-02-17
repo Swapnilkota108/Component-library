@@ -9,6 +9,7 @@
 }
 body{
     position: relative;
+    height: auto;
 }
 
 
@@ -75,6 +76,7 @@ iframe{
     width: 100%;
     height: 100%;
     display: flex;
+    position: relative;
 }   
 section{
     padding: 1.2rem 0 0 1rem;

@@ -5,6 +5,8 @@
     height: 42rem;
     width:12rem;
     overflow-y: scroll;
+    position: sticky;
+    top: 0;
 }
 
 
