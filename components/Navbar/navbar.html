@@ -1,54 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
-    <link rel="stylesheet" href="navbar.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <link rel="stylesheet" href="navbar.css">
 </head>
+
 <body>
-    <nav class="navbar">
-       <h1 class="navbar-logo">Nav</h1>     
-           <ul class="navbar-ul">
-               <li class="list">Home</li>
-               <li class="list">Docs</li>
-               <li class="list">More</li>
-               <li class="list">About</li>
-           </ul>
-           <div class="input-search-container">
-           </div>
-            <ul class="navbar-ul navbar-icon">
-               <li class="list"><i class="fab fa-twitter"></i></li>
-               <li class="list"><i class="fab fa-github"></i></li>
-            </ul>  
-    </nav>
+  <nav class="navbar">
+    <h1 class="navbar-logo">Nav</h1>
+    <ul class="navbar-ul">
+      <li class="list">Home</li>
+      <li class="list">Docs</li>
+      <li class="list">More</li>
+      <li class="list">About</li>
+    </ul>
+    <div class="input-search-container">
+    </div>
+    <ul class="navbar-ul navbar-icon">
+      <li class="list"><i class="fab fa-twitter"></i></li>
+      <li class="list"><i class="fab fa-github"></i></li>
+    </ul>
+  </nav>
 
-    <nav class="navbar-sidenav">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        <h1 class="navbar-logo">Nav</h1>     
-             <ul class="navbar-ul">
-                <li class="list"><i class="fab fa-twitter"></i></li>
-                <li class="list"><i class="fab fa-github"></i></li>
-             </ul>  
-     </nav>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-           
-          </div>   
-           
-        
+  <nav class="navbar-sidenav">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <h1 class="navbar-logo">Nav</h1>
+    <ul class="navbar-ul">
+      <li class="list"><i class="fab fa-twitter"></i></li>
+      <li class="list"><i class="fab fa-github"></i></li>
+    </ul>
+  </nav>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-    <script src="https://kit.fontawesome.com/b9a620178b.js" crossorigin="anonymous"></script>
-    <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-        }
-        </script>
+  </div>
+
+
+  <!--footer navbar-->
+  <div class="navigation-footer">
+    <ul>
+      <li class="list">
+        <a href="#">
+          <span class="icon">
+            <i class="fa fa-home"></i>
+          </span>
+          <span class="text">Home</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#">
+          <span class="icon">
+            <i class="fa fa-comment-alt"></i>
+          </span>
+          <span class="text">Messages</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#">
+          <span class="icon">
+            <i class="fa fa-user"></i>
+          </span>
+          <span class="text">Profile</span>
+        </a>
+
+      </li>
+      <li class="list">
+        <a href="#">
+          <span class="icon">
+            <i class="fa fa-cog"></i>
+          </span>
+          <span class="text">Settings</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#">
+          <span class="icon">
+            <i class="fa fa-cog"></i>
+          </span>
+          <span class="text">Settings</span>
+        </a>
+      </li>
+      <div class="indicator">
+      </div>
+    </ul>
+  </div>
+
+
+  <div class="element">
+
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/b9a620178b.js" crossorigin="anonymous"></script>
+  <script>
+    const list = document.querySelectorAll(".list");
+
+    function activeList() {
+      list.forEach((item) => item.classList.remove("active"));
+      this.classList.add("active");
+    }
+
+    list.forEach(item => item.addEventListener('click', activeList));
+
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
 
 </body>
+
 </html>
