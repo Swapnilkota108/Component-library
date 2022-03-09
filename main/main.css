@@ -17,18 +17,20 @@
 @import url(../components/List/list.css);
 @import url(../components/Rating/rating.css);
 @import url(../components/Modal/modal.css);
-
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle&family=Lato&family=Lobster&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
-
 
   
   *{
-    font-family: 'Andika', sans-serif;
-    margin: 0;
-    padding: 0;
+   font-family: 'Andika', sans-serif;
+   margin: 0;
+   padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body{
