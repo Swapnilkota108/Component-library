@@ -1,16 +1,7 @@
 @import url(../../main/main.css);
 
-*{
-  box-sizing: border-box;
-}
 
-body{
-  background-color: var(--gray-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
-}
 
 
 
